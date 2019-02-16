@@ -1,0 +1,368 @@
+body{
+    background-color: #fefff4
+}
+body > header{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgba(203,159,23,.50);
+    padding-left: 40px;
+    padding-right: 40px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0px;
+    z-index: 9000
+}
+body > header .sigle img{
+    height: 35px;
+    width: 200px
+}
+body > header .nav_bar > nav,
+body > header .nav_bar > div{
+    display: inline-block;
+}
+body > header .nav_bar > div .menu_icon{
+    display: none;
+    width: 25px;
+    height: 15px
+}
+body > header .nav_bar > nav{
+    margin-right: 25px
+}
+body > header .nav_bar .nav_item{
+    display: inline-block;
+    font-weight: normal;
+    font-size: 14px;
+    font-family: "Raleway";
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: white;
+    cursor: pointer
+}
+body > header .nav_bar .nav_item + .nav_item{
+    margin-left: 30px
+}
+body > header .nav_bar .nav_item strong{
+    font-weight: normal
+}
+body > header .nav_bar .nav_item > div{
+    position: relative
+}
+body > header .nav_bar .nav_item:hover{
+    font-weight: bold
+}
+body > header .nav_bar .nav_item .drop_down{
+    width: 13px;
+    height: 13px;
+    float: right;
+    margin-left: 10px;
+    margin-top: 7px
+}
+body > header .nav_bar .sub_menu{
+    width: 150px;
+    background-color: rgba(203,159,23,.50);
+    display: none
+}
+body > header .nav_bar .sub_menu .sub_menu_item{
+    display: block;
+    width: 100%;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: "Raleway";
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: white;
+    cursor: pointer;
+    border-bottom: #b78f1d 1px solid;
+    padding: 10px
+}
+body > header .nav_bar .sub_menu .sub_menu_item:hover{
+    background-color: rgba(184,149,47,.80);
+}
+body > header .nav_bar > div img{
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    margin-right: 10px
+}
+.article_grand_plant > div > img{
+    width: 100%;
+    height: 600px
+}
+.article_grand_plant > div{
+    position: relative;
+}
+.article_grand_plant .desc{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 50px;
+    margin: 0px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: "Raleway";
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: white;
+    z-index: 1000
+}
+.article_grand_plant .desc > div{
+    width: 300px
+}
+.article_grand_plant .desc button img{
+    width: 15px;
+    height: 15px
+}
+.article_grand_plant .desc button{
+    background-color: #ce9f19;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 150px;
+    font-weight: bold;
+    color: white
+}
+.article_grand_plant .backgroud_image_effect{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(45,45,45,.30);
+    z-index: 500
+}
+.body{
+    margin-top: 85px;
+}
+.body > div > header{
+    margin-bottom: 50px
+}
+.body > div > header .path ul{
+    padding: 0px;
+    list-style: none;
+}
+.body > div > header .path ul li{
+    display: inline-block;
+    color: #2370a3
+}
+.body > div > header .path ul li a{
+    font-weight: 500;
+    font-size: 15px;
+    font-family: "Raleway";
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: #2370a3;   
+}
+.body > div > header .relevance{
+    width: 250px;
+}
+.body > div > header .relevance > div{
+    position: relative
+}
+.body > div > header .relevance header{
+    width: 100%;
+    padding: 10px;
+    background-color: #dcdcdc;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: "Raleway";
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: #2370a3;
+    cursor: pointer
+}
+.body > div > header .relevance header .drop_down{
+    float: right;
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+    margin-top: 7px
+}
+.body > div > header .relevance section{
+    background-color: #f7f7f7;
+    width: 100%;
+    border: orangered 1px solid;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 8000;
+    display: none
+}
+.body > div > header .relevance section .item{
+    font-size: 15px;
+    font-family: "Raleway";
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: #2370a3;
+    cursor: pointer;
+    padding: 5px
+}
+.body > div > header .relevance section .item:hover{
+    background-color: orangered;
+    color: white
+}
+.body > div > section nav .search_form input{
+    height: 35px
+}
+.body > div > section nav .search_form input[type=text]{
+    border: #b3b3b3 1px solid;
+    padding-left: 10px;
+    border-radius: 2px;
+    width: 100%;
+    margin-bottom: 20px
+}
+.body > div > section nav .search_form input[type=submit]{
+    background-color: #bf4018;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    width: 150px;
+    border-radius: 2px
+}
+.body > div > section nav .item{
+    margin-bottom: 15px
+}
+.body > div > section nav .categorie_item > strong{
+    display: block;
+    font-size: 18px;
+    font-family: "Raleway";
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: #2370a3;
+}
+.body > div > section nav .categorie_item ul{
+    border-top: #b3b3b3 dashed 1px;
+    padding-top: 20px;
+    margin-top: 15px
+}
+.body > div > section nav .categorie_item ul li{
+    list-style: circle;
+    font-size: 15px;
+    font-family: "Raleway";
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: #2370a3;
+    margin-top: 10px
+}
+.body > div > section section .item{
+    width: 260px;
+    margin-bottom: 25px
+}
+.body > div > section section .item + .item{
+    margin-left: 5px
+}
+.body > div > section section .item > div{
+    position: relative;
+    width: 100%;
+    text-align: center
+}
+.body > div > section section .item > div > img{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 10px;
+}
+.body > div > section section .item strong{
+    font-size: 15px;
+    font-family: "Raleway";
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: black;
+    display: block
+}
+.body > div > section section .item em{
+    font-size: 12px;
+    font-family: "Raleway";
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: gray;
+}
+.body > div > section section .item button{
+    background-color: #ce9f19;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    color: white;
+    height: 40px
+}
+.body > div > section section .item button img{
+    width: 15px;
+    height: 15px
+}
+#mobile_nav_effect_backgroud{
+    position: fixed;
+    z-index: 8000;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(45,45,45,.100);
+    display: none
+}
+@media(min-width: 800px){   
+    .sub_menu_zero{
+        left: 0;
+        top: 30px;
+    }
+    .sub_menu_right{
+        left: 100%;
+        top: 0;
+    }
+    body > header .nav_bar .sub_menu{
+        position: absolute
+    }
+}
+@media(max-width: 800px){
+    body > header .nav_bar > nav{
+        position: fixed;
+        left: 0;
+        top: 65px;
+        bottom: 0;
+        width: 200px;
+        height: 100%;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        background-color: rgba(45,45,45,.950);
+        z-index: 10000;
+        display: none; 
+    }
+    body > header .nav_bar > div .menu_icon{
+        display: inline-block
+    }
+    body > header .sigle img{
+        height: 35px;
+        width: 110px
+    }
+    body > header .nav_bar > div{
+        padding-top: 5px
+    }
+    body > header .nav_bar .nav_item + .nav_item{
+        margin-left: 0px
+    }
+    body > header .nav_bar .nav_item{
+        display: block;
+        margin-top: 15px;
+        padding-left: 15px
+    }
+    body > header .nav_bar .sub_menu{
+        width: 100%
+    }
+}
